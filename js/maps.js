@@ -1,3 +1,5 @@
+var poly;
+
 var cities = [
               {
                   city : 'City: Ittoqqortoormiit',
@@ -30,13 +32,36 @@ var cities = [
                   zoom: 4,
                   center: new google.maps.LatLng(69,-26),
                   mapTypeId: google.maps.MapTypeId.TERRAIN
-              }
+              };
 
               $scope.map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
+               poly = new google.maps.Polyline(polyOptions);
+                poly.setMap(map);
               $scope.markers = [];
+              var path = poly.getPath();
+     
+              var latlngbounds = new google.maps.LatLngBounds( );
               
               var infoWindow = new google.maps.InfoWindow();
+
+              for ( var i = 0; i < PitStops.length; i++ ) {
+            new google.maps.Marker( {
+                position: cities[ i ].latlng,
+                map: map,
+                title: cities[ i ].name
+            } );
+
+            path.push(PitStops[ i ].latlng);
+            latlngbounds.extend( PitStops[ i ].latlng );
+        }
+
+
+        map.fitBounds( latlngbounds );
+
+    }
+
+    google.maps.event.addDomListener( window, 'load', initialize );
+
               
               var createMarker = function (info){
                   
@@ -64,5 +89,7 @@ var cities = [
                   e.preventDefault();
                   google.maps.event.trigger(selectedMarker, 'click');
               }
+
+
 
           });
