@@ -1,5 +1,5 @@
 #charts {
-    width: 1550px;
+    width: 1500px;
 }
 
 .InsideContent{
@@ -8,193 +8,19 @@
 #curve_chart1{
   width:250px;
   float:left;
-  width: 510px; 
+  width: 500px; 
   height: 310px
 }  
 #curve_chart2{
-  width:250px;
-  width: 510px; 
+  width:2500x;
+  width: 500px; 
   height: 310px
 } 
 
 #curve_chart3{
   width:250px;
   float:right;
-  width: 510px; 
+  width: 500px; 
   height: 310px
+
 } 
-
-​.clear {
-    clear: both;
-    display: none;
-}​
-
-
-a {
-    text-decoration: none;
-  }
-#map{
-    height:500px; 
-    width:2000px; 
-   
-    }
-#repeat{ 
-     display: inline;
-     }
-#country_container { 
-     width:800px; 
-     margin: 0px 3px 3px 0px; 
-     text-align: center; 
-     width: 85px; 
-     padding: 4px; 
-     display: inline-table;  
-     color: white; 
-     background-color: black; 
-     font-size: 12px; 
-     cursor: pointer;
-     border: 1px solid black; 
-     border-radius:13px; 
-     }
-#country_container:hover { 
-     box-shadow: 0px 0px 10px black;
-     background-color: gray; 
-     border: 1px solid gray; 
-     cursor: pointer; 
-     }
-#names { 
-     cursor: pointer; 
-       }
-
-.title-large:hover{
-    outline-color: transparent;
-}
-.tile-large {
-    display: block;
-    float: left;
-    margin: 5px;
-    background-color: #EEE;
-    box-shadow: 0px 0px 1px #FFC inset;
-    position: relative;
-    width: 310px;
-    height: 310px;
-
-}
-
-.tile-wide {
-    display: block;
-    float: left;
-    margin: 5px;
-    background-color: #EEE;
-    box-shadow: 0px 0px 1px #FFC inset;
-    cursor: pointer;
-    position: relative;
-    width: 310px;
-    height: 150px;
-
-
-}
-
-.horizontal-menu > li > a {
-    position: relative;
-    display: block;
-    float: left;
-    font-size: 1.4rem;
-    color: inherit;
-    background-color: inherit;
-    padding: .625rem 1.625rem;
-    line-height: 1.4rem;
-
-.ol-transparent{
-    outline color: transparent; 
-
-}
-
-.tile {
-    display: block;
-    float: left;
-    margin: 5px;
-    background-color: #EEE;
-    box-shadow: 0px 0px 1px #FFC inset;
-    position: relative;
-    width: 150px;
-    height: 150px;
-
-}
-
-.tile-small, .tile, .tile-square, .tile-wide, .tile-large, .tile-big, .tile-super {
-    overflow: visible;
-
-*{
-    border-collapse: collapse;
-}
-
-body{
-    font-family: sans-serif;
-
-
-
-    font-size: 0.875em;
-    line-height: 1.1;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.horizontal-menu > li{
-    display: block;
-    float: left;
-    color: inherit;
-    background-color: inherit;
-    position: relative;
-
-}
-
-
-ul,li, ol li{
-    line-height: 1.25rem;
-}
-
-element.style{
-    heigh: 28px;
-    display: inline-block;
-    margin-left: -20px;
-    margin-right: 10px;
-}
-.horizontal-menu {
-    display: block;
-    width: 100%;
-    color: #1d1d1d;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    list-style: none inside none;
-
-
-}
-
-img{
-    max-width: 100%;
-    vertical-align: middle;
-    border: 0;
-}
-
-ul, menu, dir{
-    display: block;
-    list-style-type: disc;
-
-
-}
-
-.app-bar .app-bar-element{
-    line-height: 3.125rem;
-    font-size: 1rem;
-    cursor: pointer;
-    color: inherit;
-    display: block;
-    float: left;
-    position: relative;
-    vertical-align: middle;
-    height: 3.125rem;
-
-}
-
-
